@@ -1,0 +1,196 @@
+* {
+	/*border: 1px solid #197602 !important;*/
+	font-family:  'Roboto';
+
+}
+* {
+	-webkit-box-sizing : border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing : border-box;
+}
+.container {
+	margin: auto;
+	width: 85%;
+	border: 1px solid gray;
+	margin-top: 20px;
+	box-shadow: 2px 4px 5px #888888;
+}
+.row {
+	width: 100%;
+	display: flex;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.6%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.8%;
+}
+.col-8 {
+	width: 66.67%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.34%;
+}
+.fl-left {
+	float: left;
+}
+.fl-right {
+	float: right;
+}
+.content__detail {
+	padding: 20px;
+}
+
+
+@media only screen and (max-width: 1000px){
+	#change-1 {
+		color: #1E88E5;
+	}
+	#change-2 {
+		color: #FFA726;
+	}
+	#change-3 {
+		color: #607D8B
+	}
+}
+
+@media only screen and (max-width: 600px){
+	#change-1 {
+		color: red;
+	}
+	#change-2 {
+		color: green;
+	}
+	#change-3 {
+		color: blue;
+	}
+}
+.cover-photo {
+	height: 50%;
+	background-image: url("cover.png");
+}
+.personal-infor {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 50%;
+	box-shadow: 2px 4px 5px #888888;
+}
+.full-name {
+	padding-top: 50px;
+    font-size: 50px;
+}
+.recent-job {
+	font-size: 30px;
+}
+.address {
+	font-size: 20px;
+}
+.hobies {
+	margin: auto;
+	width: 85%;
+	text-align: center;
+	border-top: 1px solid gray;
+	padding-top: 25px;
+}
+.profile-picture {
+	background-image: url("profile.PNG");
+	border-radius: 100%;
+    margin-top: -60;
+    height: 120;
+    width: 120;
+	position: absolute;
+	background-position-x: center;
+}
+.title {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.explain-image {
+	background-image: url("java.jpg");
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-right: 10x;
+	background-position-x: center;
+}
+.experiences {
+	border-bottom: 1px solid gray;
+}
+.experiences-detai {
+	display: flex;
+}
+.job-title,.job-companies,.job-time,.job-des {
+}
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+.media {
+	display: flex;
+	justify-content : space-between;
+	border-bottom: 1px solid gray;
+	height: 50%;
+}
+.media-image {
+	background-image: url("cover.png");
+	height: 80%;
+}
+.education-list {
+	display: flex;
+	justify-content : space-between;
+	margin: auto;
+}
+.university{
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.university-image{
+	background-image: url("education.jpg");
+	height: 100;
+	width: 100;
+	border-radius: 100%;
+	margin-left: 20px;
+	background-position-x: center;
+    background-position-y: center;
+}
+.skill-content {
+	width: 90%;
+	margin: auto;
+	border-bottom: 1px solid gray;
+	display: flex;
+	justify-content : space-between;
+}
+.skill-100 {
+	border: 1px solid gray;
+	border-radius: 15px;
+	width: 200px;
+	height: 30px;
+}
+.skill-60 {
+	border: 1px solid gray;
+	border-radius: 15px;
+	width: 150px;
+	height: 30px;
+	background-color: gray;
+}
